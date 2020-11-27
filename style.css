@@ -1,0 +1,70 @@
+.BlockT {
+  display: flex;
+  justify-content: center;
+}  
+
+#Blocks {
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+}
+
+
+#Title {
+  border: 3px solid black;
+  border-radius: 20px;
+  width: 30%;
+  text-align: center;
+  color: whitesmoke;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#content {
+  border: 3px solid black;
+  text-align: center; 
+  padding: 10px;
+  min-width: 1500px;
+  max-width: 1500px;
+  min-height: 300px;
+  font-size: 20px;
+  border-radius: 20px;
+  color: whitesmoke;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+#Connection_to_Day_to_Day_Life {
+  border: 3px solid black;
+  text-align: center; 
+  padding: 10px;
+  min-width: 1500px;
+  max-width: 1500px;
+  min-height: 300px;
+  font-size: 20px;
+  border-radius: 20px;
+  color: whitesmoke;
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+img {
+  width: 33%;
+  height: 33%;
+  margin: 30px;
+  box-shadow: 4px 4px 5px black;
+  transition: all 2s
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+body {
+  background: #2196f3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
